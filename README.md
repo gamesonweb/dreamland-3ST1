@@ -7,15 +7,18 @@ Master’s student in IT/AI at **Université Côte d'Azur, France**.
 This project is developed as part of the *"3D Game Programming"* course, taught by **Michel Buffa**, and is designed to compete in the [**Games On Web 2025**](https://www.cgi.com/france/fr-fr/event/games-on-web-2025)
  competition organized by **CGI** (on theme: *Dream Land*).
 
+ # How To Play ?
+ You can play the game hosted on my VPS directly from the following link [here](https://fuzzleton.tristan-patout.fr/) (https://fuzzleton.tristan-patout.fr).
+
 
 ## Overview
-Fuzzleton will be a physics-based 3D game developed in Babylon Js, featuring a teddy bear navigating a chaotically toy-filled kids' bedroom (every child's dream, right?). The game aims to blend platforming, puzzle-solving, and soft action fighting, drawing inspiration from titles like *Fall Guys*, *Human Fall Flat*, *Only Up* and *Gang Beasts*. Ideally, it will support multiplayer gameplay where players compete (in teams) to reach the top and become the ultimate "King of the Room".
+Fuzzleton is a physics-based 3D game developed in Babylon Js, featuring a teddy bear navigating a chaotically toy-filled kids' bedroom (every child's dream, right?). The game aims to blend platforming, puzzle-solving, and soft action fighting, drawing inspiration from titles like *Fall Guys*, *Human Fall Flat*, *Only Up* and *Gang Beasts*. Ideally, it will support multiplayer gameplay where players compete (in teams) to reach the top and become the ultimate "King of the Room".
 
 ---
 
 ## Vision: What Fuzzleton Aims to Be
 ### **Core Concept**
-I envision the game as a **battle** where players control teddy bears navigating through an oversized, chaotic **kid's room** full of toys. The goal is to overcome obstacles and **reach the top before others** competitors to become the *"King of the Room"* aka the teddy bear of everyone's dreams.
+The game is envisionned as a **battle** where players control teddy bears navigating through an oversized, chaotic **kid's room** full of toys. The goal is to overcome obstacles and **reach the top before others** competitors to become the *"King of the Room"* aka the teddy bear of everyone's dreams.
 
 ---
 
