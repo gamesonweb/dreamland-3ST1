@@ -1,39 +1,73 @@
-# Fuzzleton
+# ✨ Fuzzleton — The Dreamy Teddy Bear Adventure! ✨
 
-## Author  
-**Tristan Patout**  
-Master’s student in IT/AI at **Université Côte d'Azur, France**.  
 
-This project is developed as part of the *"3D Game Programming"* course, taught by **Michel Buffa**, and is designed to compete in the [**Games On Web 2025**](https://www.cgi.com/france/fr-fr/event/games-on-web-2025)
- competition organized by **CGI** (on theme: *Dream Land*).
- 
- ---
+*Play it. Build it. Share it. Become the teddy hero you were born to be.* 🧸🔥
 
- ## How To Play ?
- You can play the game hosted on my VPS directly from the following link https://fuzzleton.tristan-patout.fr.
- 
----
+## Created by
 
-## Overview
-Fuzzleton is a physics-based 3D game developed in Babylon Js, featuring a teddy bear navigating a chaotically toy-filled kids' bedroom (every child's dream, right?). The game aims to blend platforming, puzzle-solving, and soft action fighting, drawing inspiration from titles like *Fall Guys*, *Human Fall Flat*, *Only Up* and *Gang Beasts*. Ideally, it will support multiplayer gameplay where players compete (in teams) to reach the top and become the ultimate "King of the Room".
+**Tristan Patout**
+Master 1 student in IT/AI at **Université Côte d'Azur, France**
 
----
+Developed as part of the *"3D Game Programming"* course, taught by **Michel Buffa**, and is designed to compete in the [**Games On Web 2025**](https://www.cgi.com/france/fr-fr/event/games-on-web-2025)
+competition organized by **CGI** (on theme: *Dream Land*).
 
-## Vision: What Fuzzleton Aims to Be
-### **Core Concept**
-The game is envisionned as a **battle** where players control teddy bears navigating through an oversized, chaotic **kid's room** full of toys. The goal is to overcome obstacles and **reach the top before others** competitors to become the *"King of the Room"* aka the teddy bear of everyone's dreams.
+## Ready to Jump In?
+
+Play **Fuzzleton** live right now on my VPS:
+➡️ [https://fuzzleton.tristan-patout.fr](https://fuzzleton.tristan-patout.fr)
 
 ---
 
-## Inspirations & Resources
-- [Babylon.js Documentation & Tutotrials](https://doc.babylonjs.com/)
-- [Babylon.js Forum](https://forum.babylonjs.com/)
-- [ergoudan by armomu (strongly inspired/implemented from this project)](https://github.com/armomu/ergoudan)
-- [Michel Buffa's 3D Game Programming Course](https://docs.google.com/document/d/1hz8XFVFsj3zmcZkPJtI93EMHgW-ZSAMDa_wtJnu9yN0/edit?tab=t.0#heading=h.c2d36nnahppc)
+## 💫 Watch It In Action!
 
+Curious how Fuzzleton looks? Check out this gameplay/demo video to see the teddy bear chaos and level editor magic come alive:
+🎬 [Watch the Fuzzleton Gameplay Video](https://youtube)
 
-## Documentation
-[Documentation](./Documentation.md)
+---
 
+## What’s Fuzzleton All About?
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tcwhlYLU)
+Imagine a wild, oversized kid’s bedroom — objects everywhere, chaos reigning supreme, and YOU control a fluffy teddy bear trying to navigate through this playful madness (every child's dream, right?).
+
+Fuzzleton is a **physics-powered 3D platformer** developed in Babylon.js powered by the Havok physics engine. After setting up the physic based game environment and homemade physics character controller for our cuddly hero to take life, but also setting up lights, shadows and a lot more. Your mission? Jump, bounce, find the desired object, and conquer the wildest toy-land obstacles... all while dreaming up your own crazy levels!
+
+**But wait... here’s the twist:**
+Not only can you play the game, but you have to **build your own physics-based levels** — quickly and easily through our **level creator**— and share them with friends (or rivals !) to challenge their teddy bear skills.
+
+---
+
+## The Vision — Why Fuzzleton?
+After setting up the basis of the project came fatidic questions: *What do I want to create?*, *How could I make levels integrating physics in a fun and easy way?*: Sure, Blender is fantastic for modeling but long, and exporting files, reconfiguring everything in the game quickly becomes a headache. I have tried Godot too, it is a solid engine too, but the same problems arose for integrating to my Babylon.js project.
+
+So, what was the answer? You guessed it: build my very own level editor, fully integrated into the Babylon game itself! Allowing me to create levels rapidly from various objects models assets kits.
+What was at start a simple idea for my to create levels fadter turned into the core concept of my project: The long-run dream is to create a Fuzzelton **community playground** where imagination knows no bounds.
+* Navigate your teddy through chaotic kid’s rooms filled with oversized toys
+* Overcome obstacles, bounce and find the hidden object
+* Race other players to become the **King of the Room** — the teddy bear everyone dreams of!
+* And **create your own levels** with a physics-driven level editor that puts the power of design in your hands!
+
+🎫 Think of Fuzzleton as your ticket to a *dream land* where everyones adventure is unique - because *you* build it!
+
+---
+
+## Ressources & Inspirations
+
+* Michel Buffa’s 3D Game Programming course wich was the foundation of this journey
+* [Babylon.js](https://doc.babylonjs.com/) 
+* [Babylon.js Forum](https://forum.babylonjs.com/) a lot of help from the community ! 
+* [ergoudan by armomu](https://github.com/armomu/ergoudan) — inspiration for the character controller
+
+---
+
+## Thank you
+I want to express my gratitude to CGI France, Michel Buffa, David Catuhe, Sébastien Vandenbergue, and Université Côte d'Azur for making this dream possible through the Games on Web 2025 competition. Offering the opportunity to learn more about 3D technologies and web development with Babylon.js, while stimulating our skills and creativity dreams ! 
+
+---
+
+## What’s Next?
+
+The game is still early, level creator is awaiting for new implementations but you can already try and create levels. Ready to test, play, and build your own dreamland? Dive in and let the toy chaos begin!
+
+---
+
+Original Github of the project [here](https://github.com/3ST1/fuzzleton).
