@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017", 
+    "lib": ["dom", "es2016"], 
+    "useDefineForClassFields": true, 
+    "module": "ESNext", 
+    "moduleResolution": "node", 
+    "noResolve": false, 
+    "isolatedModules": true, 
+    "removeComments": true, 
+    "esModuleInterop": true, 
+    "noImplicitAny": false, 
+    "noUnusedLocals": false, 
+    "noUnusedParameters": true, 
+    "noImplicitReturns": true, 
+    "skipLibCheck": true, 
+
+    "outDir": "./dist",  // Redirects compiled JS files to dist/
+    "rootDir": "./src",  // Ensures only files in src/ are compiled
+    "allowJs": false,    // Ensures JS files are not compiled
+    "strict": true,      // Enables strict type checking
+    "sourceMap": true    // Generates source maps for debugging
+  },
+  "include": ["src", "public/babylon.furMaterial.js", "public/babylon.waterMaterial.js"],
+  "exclude": ["node_modules", "dist"] // Prevents compiling external and built files
+}

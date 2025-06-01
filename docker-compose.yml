@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  fuzzleton:
+    image: fuzzleton:latest
+    container_name: fuzzleton
+    networks:
+      - web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80" 
+    volumes:
+      - .:/app  
+      - /app/node_modules 
+    environment:
+      - NODE_ENV=production
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fuzzleton.rule=Host(`fuzzleton.tristan-patout.fr`)"
+      - "traefik.http.routers.fuzzleton.entrypoints=websecure"
+      - "traefik.http.routers.fuzzleton.tls.certresolver=myresolver"
+
+networks:
+  web:
+    external: 
+      name: web
