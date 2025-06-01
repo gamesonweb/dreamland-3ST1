@@ -70,4 +70,12 @@ The game is still early, level creator is awaiting for new implementations but y
 
 ---
 
+## Illustrations 
+
+![Fuzzleton Level Creator Overview](public/images/preview3.png)
+![Fuzzleton Level Creator Overview](public/images/image-1.png)
+![In game Fuzzelton](public/images/preview1.png)
+
+---
+
 Original Github of the project [here](https://github.com/3ST1/fuzzleton).
