@@ -21,7 +21,7 @@ Play **Fuzzleton** live right now on my VPS:
 ## 💫 Watch It In Action!
 
 Curious how Fuzzleton looks? Check out this gameplay/demo video to see the teddy bear chaos and level editor magic come alive:
-🎬 [Watch the Fuzzleton Gameplay Video](https://youtube)
+🎬 [Watch the Fuzzleton Gameplay Video](https://youtu.be/mubr2ulQkJQ)
 
 ---
 
