@@ -29,18 +29,18 @@ Curious how Fuzzleton looks? Check out this gameplay/demo video to see the teddy
 
 Imagine a wild, oversized kid’s bedroom — objects everywhere, chaos reigning supreme, and YOU control a fluffy teddy bear trying to navigate through this playful madness (every child's dream, right?).
 
-Fuzzleton is a **physics-powered 3D platformer** developed in Babylon.js powered by the Havok physics engine. After setting up the physic based game environment and homemade physics character controller for our cuddly hero to take life, but also setting up lights, shadows and a lot more. Your mission? Jump, bounce, find the desired object, and conquer the wildest toy-land obstacles... all while dreaming up your own crazy levels!
+Fuzzleton is a **physics-powered 3D platformer** developed in Babylon.js powered by the Havok physics engine. After setting up the physic based game environment and homemade physics character controller for our cuddly hero to take life, but also setting up lights, shadows and a lot more we implemented level creation. Your mission? Jump, bounce, find the desired object, and conquer the wildest toy-land obstacles... all while dreaming up your own crazy levels!
 
 **But wait... here’s the twist:**
-Not only can you play the game, but you have to **build your own physics-based levels** — quickly and easily through our **level creator**— and share them with friends (or rivals !) to challenge their teddy bear skills.
+You guessed it, not only can you play the game, but you have to **build your own physics-based levels** — quickly and easily through our **level creator**— and share them with friends (or rivals !) to challenge their teddy bear skills.
 
 ---
 
 ## The Vision — Why Fuzzleton?
-After setting up the basis of the project came fatidic questions: *What do I want to create?*, *How could I make levels integrating physics in a fun and easy way?*: Sure, Blender is fantastic for modeling but long, and exporting files, reconfiguring everything in the game quickly becomes a headache. I have tried Godot too, it is a solid engine too, but the same problems arose for integrating to my Babylon.js project.
+After setting up the basis of the project came fatidic questions: *What do I want to create?*, *How could I make levels integrating physics in a fun and easy way?*: Sure, Blender is fantastic for modeling but very time consumming, and exporting files, reconfiguring everything in the game quickly becomes a headache. I have tried Godot too, it is a solid engine too, but the same problems arose for integrating to my Babylon.js project.
 
-So, what was the answer? You guessed it: build my very own level editor, fully integrated into the Babylon game itself! Allowing me to create levels rapidly from various objects models assets kits.
-What was at start a simple idea for my to create levels fadter turned into the core concept of my project: The long-run dream is to create a Fuzzelton **community playground** where imagination knows no bounds.
+So, what was the answer? Build my very own level editor, fully integrated into the Babylon game itself! Allowing me to create levels rapidly from various objects models assets kits (saved from my own cloud files serving). What was at start a simple idea for my to create levels faster turned into the core concept of my project: 
+The long-run dream is to create a Fuzzelton **community playground** where imagination knows no bounds.
 * Navigate your teddy through chaotic kid’s rooms filled with oversized toys
 * Overcome obstacles, bounce and find the hidden object
 * Race other players to become the **King of the Room** — the teddy bear everyone dreams of!
@@ -66,7 +66,8 @@ I want to express my gratitude to CGI France, Michel Buffa, David Catuhe, Sébas
 
 ## What’s Next?
 
-The game is still early, level creator is awaiting for new implementations but you can already try and create levels. Ready to test, play, and build your own dreamland? Dive in and let the toy chaos begin!
+The game is still early, level creator is awaiting for new implementations and bugs corrections. In future I would like to implement actions based on emitter/receivers to push even beyond the capabilities of what can be built! But good news, you can already try and create simple levels. 
+Ready to test, play, and build your own dreamland? Dive in and let the toy chaos begin!
 
 ---
 
